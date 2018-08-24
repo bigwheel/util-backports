@@ -19,6 +19,24 @@ If you use SBT you can include util-backports in your project with
 libraryDependencies += "com.github.bigwheel" %% "util-backports" % "1.0"
 ```
 
+## Usage
+
+```scala
+import com.github.bigwheel.util.chaining._
+
+val str = "42"
+str.tap(println)
+println(1 + str.pipe(_.length))
+
+
+import com.github.bigwheel.util.Using
+
+Using.resource(new PrintWriter("write-target.txt")) { pw =>
+  pw.write("hello world")
+  // no need to close !
+}
+```
+
 ## Development hint
 
 ### How to check util package new feature in 2.13

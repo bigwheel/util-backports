@@ -36,7 +36,7 @@ Using.resource(new PrintWriter("write-target.txt")) { pw =>
 }
 ```
 
-## Development hint
+## Hint for util-backports developers
 
 ### How to check util package new feature in 2.13
 

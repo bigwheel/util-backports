@@ -6,7 +6,7 @@ This is a backport library of Scala Standard Library `scala.util` package from 2
 
 * tap
 * pipe
-* loan pattern
+* Using (loan pattern)
 
 ## Installation
 

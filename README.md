@@ -12,8 +12,6 @@ This is a backport library of Scala Standard Library `scala.util` package from 2
 
 util-backports is available from maven central.
 
-Latest release: Maven Central
-
 If you use SBT you can include util-backports in your project with
 
 ```scala

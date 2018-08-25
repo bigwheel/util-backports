@@ -1,7 +1,8 @@
 # util backports from scala 2.13 to 2.12 [![Build Status](https://travis-ci.com/bigwheel/util-backports.svg?branch=master)](https://travis-ci.com/bigwheel/util-backports)
 
 This is a backport library of Scala Standard Library `scala.util` package from 2.13 to 2.12.
-2.13 util package contains following new features.
+
+2.13 `scala.util` package contains following new features.
 
 * tap
 * pipe

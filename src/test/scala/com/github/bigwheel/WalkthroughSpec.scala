@@ -7,14 +7,14 @@ import org.scalatest.FunSuite
 class WalkthroughSpec extends FunSuite {
 
   test("walkthrough") {
-    import com.github.bigwheel.util.chaining._
+    import scala.util.chaining._
 
     val str = "42"
     str.tap(println)
     println(1 + str.pipe(_.length))
 
 
-    import com.github.bigwheel.util.Using
+    import scala.util.Using
 
     Using.resource(new PrintWriter("write-target.txt")) { pw =>
       pw.write("hello world")

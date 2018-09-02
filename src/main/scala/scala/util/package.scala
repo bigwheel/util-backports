@@ -1,4 +1,4 @@
-package com.github.bigwheel
+package scala
 
 package object util {
   /**

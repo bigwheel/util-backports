@@ -1,4 +1,4 @@
-package com.github.bigwheel.util
+package scala.util
 
 trait ChainingSyntax {
   implicit final def scalaUtilChainingOps[A](a: A): ChainingOps[A] = new ChainingOps(a)

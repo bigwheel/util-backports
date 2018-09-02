@@ -1,8 +1,7 @@
-package com.github.bigwheel.util
+package scala.util
 
 import java.util.concurrent.atomic.AtomicBoolean
 
-import scala.util.Try
 import scala.util.control.{ControlThrowable, NonFatal}
 
 /** A utility for performing automatic resource management. It can be used to perform an

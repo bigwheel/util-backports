@@ -15,7 +15,7 @@ util-backports is available from maven central.
 If you use SBT you can include util-backports in your project with
 
 ```scala
-libraryDependencies += "com.github.bigwheel" %% "util-backports" % "1.0"
+libraryDependencies += "com.github.bigwheel" %% "util-backports" % "1.1"
 ```
 
 ## Usage

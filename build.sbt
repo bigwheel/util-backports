@@ -1,6 +1,6 @@
 name := "util-backports"
 organization := "com.github.bigwheel"
-version := "1.1"
+version := "2.0"
 scalaVersion := "2.12.6"
 
 libraryDependencies ++= Seq(

@@ -1,10 +1,19 @@
 name := "util-backports"
 organization := "com.github.bigwheel"
-version := "2.0"
-scalaVersion := "2.12.6"
+version := "2.1"
+scalaVersion := "2.12.10"
+
+crossScalaVersions := Seq("2.11.12", "2.12.10", "2.13.1")
+
+Compile / sources := {
+  scalaVersion.value match {
+    case CrossVersion.PartialVersion("2", "11" | "12") => (Compile / sources).value
+    case _ => Nil
+  }
+}
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.5" % Test
+  "org.scalatest" %% "scalatest" % "3.0.8" % Test
 )
 
 // about maven publish

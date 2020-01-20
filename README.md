@@ -1,6 +1,6 @@
-# util backports from scala 2.13 to 2.12 [![Build Status](https://travis-ci.org/bigwheel/util-backports.svg?branch=master)](https://travis-ci.org/bigwheel/util-backports)
+# util backports from scala 2.13 to 2.12 and 2.11[![Build Status](https://travis-ci.org/bigwheel/util-backports.svg?branch=master)](https://travis-ci.org/bigwheel/util-backports)
 
-This is a backport library of Scala Standard Library `scala.util` package from 2.13 to 2.12.
+This is a backport library of Scala Standard Library `scala.util` package from 2.13 to 2.12 and 2.11.
 
 2.13 `scala.util` package contains following new features.
 
@@ -15,7 +15,7 @@ util-backports is available from maven central.
 If you use SBT you can include util-backports in your project with
 
 ```scala
-libraryDependencies += "com.github.bigwheel" %% "util-backports" % "2.0"
+libraryDependencies += "com.github.bigwheel" %% "util-backports" % "2.1"
 ```
 
 ## Usage

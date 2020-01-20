@@ -1,7 +1,7 @@
 name := "util-backports"
 organization := "com.github.bigwheel"
 version := "2.1"
-scalaVersion := "2.12.10"
+scalaVersion := "2.13.1"
 
 crossScalaVersions := Seq("2.11.12", "2.12.10", "2.13.1")
 
